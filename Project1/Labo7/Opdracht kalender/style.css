@@ -1,0 +1,61 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: #ffffff;
+}
+
+.kalender {
+    border-collapse: collapse;
+    border: 2px solid #555555;
+    width: 300px;
+    text-align: left;
+}
+
+.maand-hoofding {
+    background-color: rgb(170, 170, 200);
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border: 1px solid #555555;
+}
+
+.dag-hoofding th {
+    background-color: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 3px 4px;
+    border: 1px dotted #888888;
+}
+
+.kalender tbody td {
+    padding: 3px 4px;
+    font-size: 16px;
+    color: #000000;
+    border: 1px dotted #666666;
+    width: 14.28%;
+}
+
+.kalender tbody td:first-child,
+.kalender tbody td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+.kalender tbody td.andere-maand {
+    background-color: rgb(180, 180, 180);
+    color: rgb(220, 220, 220);
+}
+
+.kalender tbody td.feestdag {
+    background-color: rgb(250, 120, 120);
+    color: #000000;
+}
+
+.kalender tbody td a {
+    color: #0000ff;
+    text-decoration: underline;
+}
