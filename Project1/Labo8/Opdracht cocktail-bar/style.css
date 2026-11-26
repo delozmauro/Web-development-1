@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+#page-wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.banner {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h1, h2 {
+    color: #007e7e;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+.hoofdkolom {
+    float: left;
+    width: 70%;
+    padding-right: 25px;
+}
+
+.garantie-kader {
+    margin: 30px;
+    padding: 20px 20px 20px 80px;
+    color: #444444;
+    background-color: #a7cece;
+    background-image: url("images/background.gif");
+    background-repeat: no-repeat;
+    background-position: top left;
+    border: 1px dashed #ffffff;
+    font-style: italic;
+}
+
+.muzieklijst .titel {
+    font-style: italic;
+}
+
+.muzieklijst .artiest {
+    font-weight: bold;
+}
+
+.specials-kolom {
+    float: left;
+    width: 30%;
+    border: 1px solid #007e7e;
+    padding: 18px;
+    text-align: center;
+    background-image: url("images/cocktail.gif");
+    background-repeat: repeat-x;
+    background-position: top center;
+}
+
+.specials-kolom h1 {
+    color: #1f3a3d;
+    margin-top: 25px;
+}
+
+.specials-kolom h2 {
+    color: #c0392b;
+}
+
+.specials-kolom a:hover {
+    background-color: #6f4e37;
+    color: #ffffff;
+}
+
+.voettekst {
+    clear: both;
+    text-align: center;
+    font-size: 50%;
+    padding: 20px 0;
+}
